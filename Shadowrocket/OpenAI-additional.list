@@ -1,0 +1,26 @@
+# OpenAI Additional
+# Curated: 2026-08-20
+# Base list remains ACL4SSR OpenAi.list via jsDelivr.
+# This file adds OpenAI-specific / official ChatGPT dependencies not already
+# covered by that base list. Broad shared services and old IP/ASN rules were
+# intentionally omitted to reduce accidental cross-app routing.
+# OpenAI official network recommendations
+DOMAIN-SUFFIX,oaistatsig.com
+DOMAIN,cdn.openaimerge.com
+DOMAIN,cdn.workos.com
+DOMAIN,forwarder.workos.com
+DOMAIN,images.workoscdn.com
+DOMAIN,rum.browser-intake-datadoghq.com
+DOMAIN,setup.workos.com
+DOMAIN,workos.imgix.net
+# Useful OpenAI-specific additions referenced by yfamilys
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN-SUFFIX,openaicom.imgix.net
